@@ -1,0 +1,1838 @@
+body
+{padding: 0px;
+    margin-top: 0px;
+    font-family:system-ui;
+    background-color:whitesmoke;
+}
+.main
+{
+    background-image: url("./images/bi.jpg");
+    height: max-content;
+    background-attachment: fixed;
+    background-position:c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+
+}
+.main h1{
+    background: rgba( 0,0,0,0.5);
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing:15px;
+    font-variant:small-caps;
+    padding: 160px 100px;
+    font-weight: bolder;
+    margin-top: 0px;
+    text-shadow: 5px 5px 10px green;
+
+
+}
+.navbar
+{
+position:absolute;
+    top:400px;
+    width: 100%;
+
+    
+
+}
+.menubar
+{
+    background-color: #184d47;
+    text-align: center;
+}
+.menubar ul{
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+.menubar ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 20px;
+
+}
+.menubar ul li a
+{
+   
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+.menubar ul li:hover
+{
+    background-color:green;
+    transform: scale(1.1);
+    padding: 10px;
+
+}
+
+.searchbox
+{
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: #fff;
+    width: max-content;
+    display:inline-block;
+    margin: 0px;}
+    .searchbox:hover
+    {
+        box-shadow: 0px 0px 20px green;
+        border: 2px solid green;
+    }
+
+    .searchbox input{
+        border: none;
+        width: 160px;
+        font-size: 15px;
+        outline: none;
+        background: transparent;
+        padding:6px 10px;
+        
+    }
+    .searchbox button 
+    { border: none;
+        
+        font-size: 15px;
+        outline: none;
+        background: transparent;
+        border-radius: 50px;}
+
+        /* containrt */
+        .container
+        {display: inline-flex;
+            flex-direction: left;
+            justify-content: space-around;
+            width:100%;
+            height:max-content;
+            background-color: #fff;
+            margin-top: 50px;
+            
+        }
+        
+/* sub1 */
+.container .sub1
+{
+    border:3px solid green;
+    border-radius: 0px 0px 40px 40px;
+    width: max-content;
+    height:max-content;
+    margin:50px 50px;
+
+}
+
+.container .sub1:hover
+{
+    box-shadow: 2px 2px 5px lawngreen;
+}
+
+
+.container .sub1 img
+{
+    width: 150px;
+    height:150px;
+    border:5px solid white;
+}
+.container .sub1 a
+{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+}
+      
+/* sub2 */
+.container .sub2 
+        {
+            border:3px solid green;
+            border-radius: 0px 0px 40px 40px;
+            width: max-content;
+            height:max-content;
+            margin:50px 50px;
+
+        }
+
+        .container .sub2:hover
+        {
+            box-shadow: 2px 2px 5px lawngreen;
+        }
+
+
+        .container .sub2 img
+        {
+            width: 150px;
+            height:150px;
+            border:5px solid white;
+        }
+        .container .sub2 a
+        {
+            font-size: 12px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 0px;
+        }
+        /* sub3 */
+        .container .sub3
+        {
+            border:3px solid green;
+            border-radius: 0px 0px 40px 40px;
+            width: max-content;
+            height:max-content;
+            margin:50px 50px;
+
+        }
+
+        .container .sub3:hover
+        {
+            box-shadow: 2px 2px 5px lawngreen;
+        }
+
+
+        .container .sub3 img
+        {
+            width: 150px;
+            height:150px;
+            border:5px solid white;
+        }
+        .container .sub3 a
+        {
+            font-size: 12px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 0px;
+        }
+        /* sub4 */
+        .container .sub4
+        {
+            border:3px solid green;
+            border-radius: 0px 0px 40px 40px;
+            width: max-content;
+            height:max-content;
+            margin:50px 50px;
+
+        }
+
+        .container .sub4:hover
+        {
+            box-shadow: 2px 2px 5px lawngreen;
+        }
+
+
+        .container .sub4 img
+        {
+            width: 150px;
+            height:150px;
+            border:5px solid white;
+        }
+        .container .sub4 a
+        {
+            font-size: 12px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 0px;}
+            /* deals */
+            .maindeals
+        
+{
+    background-image: url("./images/bi.jpg");
+    height: max-content;
+    background-attachment: fixed;
+    background-position:c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+
+}
+.maindeals h1{
+    background: rgba( 0,0,0,0.5);
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing:10px;
+    font-variant:small-caps;
+    padding: 90px 100px;
+    font-weight: bolder;
+    text-shadow: 5px 5px 10px green;}
+
+.subdeal
+{height: max-content;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 30px;
+    display: inline-flex;
+    flex-direction: left;
+    justify-content: space-evenly;
+
+}
+/* sub1 */
+.subdeal .sub1 
+{ margin-top: 30px;
+    margin-bottom: 30px;
+    height: 250px;
+    width: 300px;
+    color:white;
+    
+    background:linear-gradient(140deg, black,black,green,rgb(124, 214, 34),green,black,black);
+
+}
+
+.subdeal .sub1 h2{
+    font-style: italic;
+    font-family: serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.subdeal .sub1 button{
+    border:2px solid white;
+    border-radius: 30px;
+    background:transparent;
+    font-size: 15px;
+    color:white;
+    padding:8px 16px;
+    text-align: center;
+    align-items: center;
+    margin-left: 90px;
+}
+.subdeal .sub1 button:hover
+{
+    box-shadow: 5px 5px 5px lime;
+}
+/* sub2 */
+.subdeal .sub2 
+{ margin-top: 30px;
+    margin-bottom: 30px;
+    height: 250px;
+    width: 300px;
+    color:white;
+    
+    background:linear-gradient(140deg, black,black,green,rgb(124, 214, 34),green,black,black);
+
+}
+
+.subdeal .sub2 h2{
+    font-style: italic;
+    font-family: serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+.subdeal .sub2 button
+{
+    border:2px solid white;
+    border-radius: 30px;
+    background:transparent;
+    font-size: 15px;
+    color:white;
+    padding:8px 16px;
+    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+}
+.subdeal .sub2 button:hover
+{
+    box-shadow: 5px 5px 5px lime;
+}
+
+
+/* sub3 */
+.subdeal .sub3
+{ margin-top: 30px;
+    margin-bottom: 30px;
+    height: 250px;
+    width: 300px;
+    color:white;
+    
+    background:linear-gradient(140deg, black,black,green,rgb(124, 214, 34),green,black,black);
+
+}
+
+.subdeal .sub3 h2{
+    font-style: italic;
+    font-family: serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.subdeal .sub3 button{
+    border:2px solid white;
+    border-radius: 30px;
+    background:transparent;
+    font-size: 15px;
+    color:white;
+    padding:8px 16px;
+    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+}
+.subdeal .sub3 button:hover
+{
+    box-shadow: 5px 5px 5px lime;}
+    /* deals end */
+    /* veg start */
+    .mainveg
+        
+    {
+        background-image: url("./images/bi.jpg");
+        height: max-content;
+        background-attachment: fixed;
+        background-position:c;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 0px;
+    
+    }
+    .mainveg h1{
+        background: rgba( 0,0,0,0.5);
+        text-align: center;
+        font-size: 50px;
+        color: white;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing:10px;
+        font-variant:small-caps;
+        padding: 90px 100px;
+        font-weight: bolder;
+        text-shadow: 5px 5px 10px green;}
+    
+
+
+
+    .veg{
+        background-color: #fff;
+        height:970px;
+        width: 100%;
+        border:20px soild white;
+        margin-top: 50px;
+    
+        display:grid;
+        grid-template-columns: 150px 150px 150px 150px;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+
+        justify-content: space-around;
+        
+    }
+    /* veg1start */
+.veg .sub1
+{border:3px solid green;
+    border-radius: 0px 0px 40px 40px;
+    width: max-content;
+    height:max-content;
+    margin-top:50px;
+margin-left: 0px;}
+
+.veg .sub1:hover
+{box-shadow: 2px 2px 5px lawngreen;}
+
+
+.veg .sub1 img
+{ width: 150px;
+    height:150px;
+    border:5px solid white;}
+.veg .sub1 h3
+{font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+    
+.veg .sub1 h1
+
+{font-size: 20px;
+text-decoration: none;
+color: black;
+font-weight: bold;
+text-align: center;
+margin-top: 0px;
+}
+.veg .sub1 button{
+    border:2px solid white;
+    border-radius: 30px;
+    background:green;
+    font-size: 15px;
+    color:white;
+    padding:10px 26px;
+    text-align: center;
+    align-items: center;
+    margin-left: 25px;
+
+}
+.veg .sub1 button:hover
+{
+    background-color:black;}
+    /* veg2 start */
+    .veg .sub2
+{border:3px solid green;
+    border-radius: 0px 0px 40px 40px;
+    width: max-content;
+    height:max-content;
+    margin-top:33%;
+margin-left: 0px;}
+
+.veg .sub2:hover
+{box-shadow: 2px 2px 5px lawngreen;}
+
+
+.veg .sub2 img
+{ width: 150px;
+    height:150px;
+    border:5px solid white;}
+.veg .sub2 h3
+{font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+    
+.veg .sub2 h1
+
+{font-size: 20px;
+text-decoration: none;
+color: black;
+font-weight: bold;
+text-align: center;
+margin-top: 0px;
+}
+.veg .sub2 button{
+    border:2px solid white;
+    border-radius: 30px;
+    background:green;
+    font-size: 15px;
+    color:white;
+    padding:10px 26px;
+    text-align: center;
+    align-items: center;
+    margin-left: 25px;
+
+}
+.veg .sub2 button:hover
+{
+    background-color:black;}
+
+    /* veg3start */
+    .veg .sub3
+{border:3px solid green;
+    border-radius: 0px 0px 40px 40px;
+    width: max-content;
+    height:max-content;
+    margin-top: 50px;
+margin-left: 0px;}
+
+.veg .sub3:hover
+{box-shadow: 2px 2px 5px lawngreen;}
+
+
+.veg .sub3 img
+{ width: 150px;
+    height:150px;
+    border:5px solid white;}
+.veg .sub3 h3
+{font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+    
+.veg .sub3 h1
+
+{font-size: 20px;
+text-decoration: none;
+color: black;
+font-weight: bold;
+text-align: center;
+margin-top: 0px;
+}
+.veg .sub3 button{
+    border:2px solid white;
+    border-radius: 30px;
+    background:green;
+    font-size: 15px;
+    color:white;
+    padding:10px 26px;
+    text-align: center;
+    align-items: center;
+    margin-left: 25px;
+
+}
+.veg .sub3 button:hover
+{
+    background-color:black;}
+    /* veg4 */
+    .veg .sub4
+{border:3px solid green;
+    border-radius: 0px 0px 40px 40px;
+    width: max-content;
+    height:max-content;
+    margin-top: 50px;
+margin-left:0px ;}
+
+.veg .sub4:hover
+{box-shadow: 2px 2px 5px lawngreen;}
+
+
+.veg .sub4 img
+{ width: 150px;
+    height:150px;
+    border:5px solid white;}
+.veg .sub4 h3
+{font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+    
+.veg .sub4 h1
+
+{font-size: 20px;
+text-decoration: none;
+color: black;
+font-weight: bold;
+text-align: center;
+margin-top: 0px;
+}
+.veg .sub4 button{
+    border:2px solid white;
+    border-radius: 30px;
+    background:green;
+    font-size: 15px;
+    color:white;
+    padding:10px 26px;
+    text-align: center;
+    align-items: center;
+    margin-left: 25px;
+
+}
+.veg .sub4 button:hover
+{
+    background-color:black;}
+
+
+    /* veg5  */
+    .veg .sub5
+{border:3px solid green;
+    border-radius: 0px 0px 40px 40px;
+    width: max-content;
+    height:max-content;
+    margin-top:25px;
+margin-left: 0px;}
+
+.veg .sub5:hover
+{box-shadow: 2px 2px 5px lawngreen;}
+
+
+.veg .sub5 img
+{ width: 150px;
+    height:150px;
+    border:5px solid white;}
+.veg .sub5 h3
+{font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+    
+.veg .sub5 h1
+
+{font-size: 20px;
+text-decoration: none;
+color: black;
+font-weight: bold;
+text-align: center;
+margin-top: 0px;
+
+}
+.veg .sub5 button{
+    border:2px solid white;
+    border-radius: 30px;
+    background:green;
+    font-size: 15px;
+    color:white;
+    padding:10px 26px;
+    text-align: center;
+    align-items: center;
+    margin-left: 25px;
+
+}
+.veg .sub5 button:hover
+{
+    background-color:black;}
+
+    /* veg6 */
+    .veg .sub6
+{border:3px solid green;
+    border-radius: 0px 0px 40px 40px;
+    width: max-content;
+    height:max-content;
+    margin-top:25px;
+margin-left: 0px;}
+
+.veg .sub6:hover
+{box-shadow: 2px 2px 5px lawngreen;}
+
+
+.veg .sub6 img
+{ width: 150px;
+    height:150px;
+    border:5px solid white;}
+.veg .sub6 h3
+{font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+    
+.veg .sub6 h1
+
+{font-size: 20px;
+text-decoration: none;
+color: black;
+font-weight: bold;
+text-align: center;
+margin-top: 0px;
+}
+.veg .sub6 button{
+    border:2px solid white;
+    border-radius: 30px;
+    background:green;
+    font-size: 15px;
+    color:white;
+    padding:10px 26px;
+    text-align: center;
+    align-items: center;
+    margin-left: 25px;
+
+}
+.veg .sub6 button:hover
+{
+    background-color:black;}
+    /* veg 7 */
+    .veg .sub7
+{border:3px solid green;
+    border-radius: 0px 0px 40px 40px;
+    width: max-content;
+    height:max-content;
+    margin-top:25px;
+margin-left: 0px;}
+
+.veg .sub7:hover
+{box-shadow: 2px 2px 5px lawngreen;}
+
+
+.veg .sub7 img
+{ width: 150px;
+    height:150px;
+    border:5px solid white;}
+.veg .sub7 h3
+{font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+    
+.veg .sub7 h1
+
+{font-size: 20px;
+text-decoration: none;
+color: black;
+font-weight: bold;
+text-align: center;
+margin-top: 0px;
+}
+.veg .sub7 button{
+    border:2px solid white;
+    border-radius: 30px;
+    background:green;
+    font-size: 15px;
+    color:white;
+    padding:10px 26px;
+    text-align: center;
+    align-items: center;
+    margin-left: 25px;
+
+}
+.veg .sub7 button:hover
+{
+    background-color:black;}
+
+    /* veg8 */
+    .veg .sub8
+{border:3px solid green;
+    border-radius: 0px 0px 40px 40px;
+    width: max-content;
+    height:max-content;
+    margin-top:25px;
+margin-left: 0px;}
+
+.veg .sub8:hover
+{box-shadow: 2px 2px 5px lawngreen;}
+
+
+.veg .sub8 img
+{ width: 150px;
+    height:150px;
+    border:5px solid white;}
+.veg .sub8 h3
+{font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+    
+.veg .sub8 h1
+
+{font-size: 20px;
+text-decoration: none;
+color: black;
+font-weight: bold;
+text-align: center;
+margin-top: 0px;
+}
+.veg .sub8 button{
+    border:2px solid white;
+    border-radius: 30px;
+    background:green;
+    font-size: 15px;
+    color:white;
+    padding:10px 26px;
+    text-align: center;
+    align-items: center;
+    margin-left: 25px;
+
+}
+.veg .sub8 button:hover
+{
+    background-color:black;}
+
+    /* veg9 */
+    .veg .sub9
+{border:3px solid green;
+    border-radius: 0px 0px 40px 40px;
+    width: max-content;
+    height:max-content;
+    margin-top:25px;
+margin-left: 0px;}
+
+.veg .sub1:hover
+{box-shadow: 2px 2px 5px lawngreen;}
+
+
+.veg .sub9 img
+{ width: 150px;
+    height:150px;
+    border:5px solid white;}
+.veg .sub9 h3
+{font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+    
+.veg .sub9 h1
+
+{font-size: 20px;
+text-decoration: none;
+color: black;
+font-weight: bold;
+text-align: center;
+margin-top: 0px;
+}
+.veg .sub9 button{
+    border:2px solid white;
+    border-radius: 30px;
+    background:green;
+    font-size: 15px;
+    color:white;
+    padding:10px 26px;
+    text-align: center;
+    align-items: center;
+    margin-left: 25px;
+
+}
+.veg .sub9 button:hover
+{
+    background-color:black;}
+    /* veh10 */
+    .veg .sub10
+{border:3px solid green;
+    border-radius: 0px 0px 40px 40px;
+    width: max-content;
+    height:max-content;
+    margin-top:25px;
+margin-left: 0px;}
+
+.veg .sub10:hover
+{box-shadow: 2px 2px 5px lawngreen;}
+
+
+.veg .sub10 img
+{ width: 150px;
+    height:150px;
+    border:5px solid white;}
+.veg .sub10 h3
+{font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+    
+.veg .sub10 h1
+
+{font-size: 20px;
+text-decoration: none;
+color: black;
+font-weight: bold;
+text-align: center;
+margin-top: 0px;
+}
+.veg .sub10 button{
+    border:2px solid white;
+    border-radius: 30px;
+    background:green;
+    font-size: 15px;
+    color:white;
+    padding:10px 26px;
+    text-align: center;
+    align-items: center;
+    margin-left: 25px;
+
+}
+.veg .sub10 button:hover
+{
+    background-color:black;}
+    /* veg11 */
+    .veg .sub11
+{border:3px solid green;
+    border-radius: 0px 0px 40px 40px;
+    width: max-content;
+    height:max-content;
+    margin-top:25px;
+margin-left: 0px;}
+
+.veg .sub11:hover
+{box-shadow: 2px 2px 5px lawngreen;}
+
+
+.veg .sub11 img
+{ width: 150px;
+    height:150px;
+    border:5px solid white;}
+.veg .sub11 h3
+{font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+    
+.veg .sub11 h1
+
+{font-size: 20px;
+text-decoration: none;
+color: black;
+font-weight: bold;
+text-align: center;
+margin-top: 0px;
+}
+.veg .sub11 button{
+    border:2px solid white;
+    border-radius: 30px;
+    background:green;
+    font-size: 15px;
+    color:white;
+    padding:10px 26px;
+    text-align: center;
+    align-items: center;
+    margin-left: 25px;
+
+}
+.veg .sub11 button:hover
+{
+    background-color:black;}
+    /* veg12 */
+    .veg .sub12
+{border:3px solid green;
+    border-radius: 0px 0px 40px 40px;
+    width: max-content;
+    height:max-content;
+    margin-top:25px;
+margin-left:0px;}
+
+.veg .sub12:hover
+{box-shadow: 2px 2px 5px lawngreen;}
+
+
+.veg .sub12 img
+{ width: 150px;
+    height:150px;
+    border:5px solid white;}
+.veg .sub12 h3
+{font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+    
+.veg .sub12 h1
+
+{font-size: 20px;
+text-decoration: none;
+color: black;
+font-weight: bold;
+text-align: center;
+margin-top: 0px;
+}
+.veg .sub12 button{
+    border:2px solid white;
+    border-radius: 30px;
+    background:green;
+    font-size: 15px;
+    color:white;
+    padding:10px 26px;
+    text-align: center;
+    align-items: center;
+    margin-left: 25px;
+
+}
+.veg .sub12 button:hover
+{
+    background-color:black;}
+
+
+
+    /* fruts start */
+    .mainfruts
+        
+    {
+        background-image: url("./images/bi.jpg");
+        height: max-content;
+        background-attachment: fixed;
+        background-position:c;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 0px;
+    
+    }
+    .mainfruts h1{
+        background: rgba( 0,0,0,0.5);
+        text-align: center;
+        font-size: 50px;
+        color: white;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing:10px;
+        font-variant:small-caps;
+        padding: 90px 100px;
+        font-weight: bolder;
+        text-shadow: 5px 5px 10px green;}
+
+        .fruts{
+            background-color: #fff;
+            height:700px;
+            width: 100%;
+            border:20px soild white;
+            margin-top: 50px;
+        
+            display:grid;
+            grid-template-columns: 150px 150px 150px 150px;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+            justify-content: space-around;
+            
+        }
+        /* fruts start */
+    .fruts .sub1
+    {border:3px solid green;
+        border-radius: 0px 0px 40px 40px;
+        width: max-content;
+        height:max-content;
+        margin-top:50px;
+    margin-left: 0px;}
+    
+    .fruts .sub1:hover
+    {box-shadow: 2px 2px 5px lawngreen;}
+    
+    
+    .fruts .sub1 img
+    { width: 150px;
+        height:150px;
+        border:5px solid white;}
+    .fruts .sub1 h3
+    {font-size: 15px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10px;
+    }
+        
+    .fruts .sub1 h1
+    
+    {font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    }
+    .fruts .sub1 button
+    {
+        border:2px solid white;
+        border-radius: 30px;
+        background:green;
+        font-size: 15px;
+        color:white;
+        padding:10px 26px;
+        text-align: center;
+        align-items: center;
+        margin-left:25px;
+    
+    }
+     .fruts .sub1 button:hover
+    {
+        background-color:black;}
+
+
+        /* frut2 */
+        .fruts .sub2
+    {border:3px solid green;
+        border-radius: 0px 0px 40px 40px;
+        width: max-content;
+        height:max-content;
+        margin-top:50px;
+    margin-left: 0px;}
+    
+    .fruts .sub2:hover
+    {box-shadow: 2px 2px 5px lawngreen;}
+    
+    
+    .fruts .sub2 img
+    { width: 150px;
+        height:150px;
+        border:5px solid white;}
+    .fruts .sub2 h3
+    {font-size: 15px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10px;
+    }
+        
+    .fruts .sub2 h1
+    
+    {font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    }
+    .fruts .sub2 button
+    {
+        border:2px solid white;
+        border-radius: 30px;
+        background:green;
+        font-size: 15px;
+        color:white;
+        padding:10px 26px;
+        text-align: center;
+        align-items: center;
+        margin-left:25px;
+    
+    }
+     .fruts .sub2 button:hover
+    {
+        background-color:black;}
+
+        /* frut 3 */
+        .fruts .sub3
+    {border:3px solid green;
+        border-radius: 0px 0px 40px 40px;
+        width: max-content;
+        height:max-content;
+        margin-top:50px;
+    margin-left: 0px;}
+    
+    .fruts .sub2:hover
+    {box-shadow: 2px 2px 5px lawngreen;}
+    
+    
+    .fruts .sub3 img
+    { width: 150px;
+        height:150px;
+        border:5px solid white;}
+    .fruts .sub3 h3
+    {font-size: 15px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10px;
+    }
+        
+    .fruts .sub3 h1
+    
+    {font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    }
+    .fruts .sub3 button
+    {
+        border:2px solid white;
+        border-radius: 30px;
+        background:green;
+        font-size: 15px;
+        color:white;
+        padding:10px 26px;
+        text-align: center;
+        align-items: center;
+        margin-left:25px;
+    
+    }
+     .fruts .sub3 button:hover
+    {
+        background-color:black;}
+        /* frut 4 */
+        .fruts .sub4
+    {border:3px solid green;
+        border-radius: 0px 0px 40px 40px;
+        width: max-content;
+        height:max-content;
+        margin-top:50px;
+    margin-left: 0px;}
+    
+    .fruts .sub4:hover
+    {box-shadow: 2px 2px 5px lawngreen;}
+    
+    
+    .fruts .sub4 img
+    { width: 150px;
+        height:150px;
+        border:5px solid white;}
+    .fruts .sub4 h3
+    {font-size: 15px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10px;
+    }
+        
+    .fruts .sub4 h1
+    
+    {font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    }
+    .fruts .sub4 button
+    {
+        border:2px solid white;
+        border-radius: 30px;
+        background:green;
+        font-size: 15px;
+        color:white;
+        padding:10px 26px;
+        text-align: center;
+        align-items: center;
+        margin-left:25px;
+    
+    }
+     .fruts .sub4 button:hover
+    {
+        background-color:black;}
+
+        /* frut5 */
+        .fruts .sub5
+    {border:3px solid green;
+        border-radius: 0px 0px 40px 40px;
+        width: max-content;
+        height:max-content;
+        margin-top:25px;
+    margin-left: 0px;}
+    
+    .fruts .sub5:hover
+    {box-shadow: 2px 2px 5px lawngreen;}
+    
+    
+    .fruts .sub5 img
+    { width: 150px;
+        height:150px;
+        border:5px solid white;}
+    .fruts .sub5 h3
+    {font-size: 15px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10px;
+    }
+        
+    .fruts .sub5 h1
+    
+    {font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    }
+    .fruts .sub5 button
+    {
+        border:2px solid white;
+        border-radius: 30px;
+        background:green;
+        font-size: 15px;
+        color:white;
+        padding:10px 26px;
+        text-align: center;
+        align-items: center;
+        margin-left:25px;
+    
+    }
+     .fruts .sub5 button:hover
+    {
+        background-color:black;}
+        /* frut6 */
+        .fruts .sub6
+    {border:3px solid green;
+        border-radius: 0px 0px 40px 40px;
+        width: max-content;
+        height:max-content;
+        margin-top:25px;
+    margin-left: 0px;}
+    
+    .fruts .sub6:hover
+    {box-shadow: 2px 2px 5px lawngreen;}
+    
+    
+    .fruts .sub6 img
+    { width: 150px;
+        height:150px;
+        border:5px solid white;}
+    .fruts .sub6 h3
+    {font-size: 15px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10px;
+    }
+        
+    .fruts .sub6 h1
+    
+    {font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    }
+    .fruts .sub6 button
+    {
+        border:2px solid white;
+        border-radius: 30px;
+        background:green;
+        font-size: 15px;
+        color:white;
+        padding:10px 26px;
+        text-align: center;
+        align-items: center;
+        margin-left:25px;
+    
+    }
+     .fruts .sub6 button:hover
+    {
+        background-color:black;}
+
+        /* frut 7 */
+        .fruts .sub7
+    {border:3px solid green;
+        border-radius: 0px 0px 40px 40px;
+        width: max-content;
+        height:max-content;
+        margin-top:25px;
+    margin-left: 0px;}
+    
+    .fruts .sub7:hover
+    {box-shadow: 2px 2px 5px lawngreen;}
+    
+    
+    .fruts .sub7 img
+    { width: 150px;
+        height:150px;
+        border:5px solid white;}
+    .fruts .sub7 h3
+    {font-size: 15px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10px;
+    }
+        
+    .fruts .sub7 h1
+    
+    {font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    }
+    .fruts .sub7 button
+    {
+        border:2px solid white;
+        border-radius: 30px;
+        background:green;
+        font-size: 15px;
+        color:white;
+        padding:10px 26px;
+        text-align: center;
+        align-items: center;
+        margin-left:25px;
+    
+    }
+     .fruts .sub7 button:hover
+    {
+        background-color:black;}
+/* frut8 */
+.fruts .sub8
+    {border:3px solid green;
+        border-radius: 0px 0px 40px 40px;
+        width: max-content;
+        height:max-content;
+        margin-top:25px;
+    margin-left: 0px;}
+    
+    .fruts .sub8:hover
+    {box-shadow: 2px 2px 5px lawngreen;}
+    
+    
+    .fruts .sub8 img
+    { width: 150px;
+        height:150px;
+        border:5px solid white;}
+    .fruts .sub8 h3
+    {font-size: 15px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10px;
+    }
+        
+    .fruts .sub8 h1
+    
+    {font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    }
+    .fruts .sub8 button
+    {
+        border:2px solid white;
+        border-radius: 30px;
+        background:green;
+        font-size: 15px;
+        color:white;
+        padding:10px 26px;
+        text-align: center;
+        align-items: center;
+        margin-left:25px;
+    
+    }
+     .fruts .sub8 button:hover
+    {
+        background-color:black;}
+
+        /* fruts end */
+        /* meat start */
+        .mainmeat
+        
+    {
+        background-image: url("./images/f.jpg");
+        height: max-content;
+        background-attachment: fixed;
+        background-position:c;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 0px;
+    
+    }
+    .mainmeat h1{
+        background: rgba( 0,0,0,0.5);
+        text-align: center;
+        font-size: 50px;
+        color: white;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing:10px;
+        font-variant:small-caps;
+        padding: 90px 100px;
+        font-weight: bolder;
+
+        text-shadow: 5px 5px 10px green;}
+        
+
+
+        .meat{
+            background-color: #fff;
+            height:400px;
+            width: 100%;
+            border:20px soild white;
+            margin-top: 50px;
+        
+            display:grid;
+            grid-template-columns: 150px 150px 150px 150px;
+            
+    
+            justify-content: space-around;
+            
+        }
+/* meat1 */
+        .meat .sub1
+        {border:3px solid green;
+            border-radius: 0px 0px 40px 40px;
+            width: max-content;
+            height:max-content;
+            margin-top:50px;
+        margin-left: 0px;}
+        
+        .meat .sub1:hover
+        {box-shadow: 2px 2px 5px lawngreen;}
+        
+        
+        .meat .sub1 img
+        { width: 150px;
+            height:150px;
+            border:5px solid white;}
+        .meat .sub1 h3
+        {font-size: 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 10px;
+        }
+            
+        .meat .sub1 h1
+        
+        {font-size: 20px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 0px;
+        }
+        .meat .sub1 button{
+            border:2px solid white;
+            border-radius: 30px;
+            background:green;
+            font-size: 15px;
+            color:white;
+            padding:10px 26px;
+            text-align: center;
+            align-items: center;
+            margin-left: 25px;
+        
+        }
+        .meat .sub1 button:hover
+        {
+            background-color:black;}
+
+            /* meat 2 */
+            .meat .sub2
+            {border:3px solid green;
+                border-radius: 0px 0px 40px 40px;
+                width: max-content;
+                height:max-content;
+                margin-top:50px;
+            margin-left: 0px;}
+            
+            .meat .sub2:hover
+            {box-shadow: 2px 2px 5px lawngreen;}
+            
+            
+            .meat .sub2 img
+            { width: 150px;
+                height:150px;
+                border:5px solid white;}
+            .meat .sub2 h3
+            {font-size: 15px;
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                text-align: center;
+                margin-top: 10px;
+            }
+                
+            .meat .sub2 h1
+            
+            {font-size: 20px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 0px;
+            }
+            .meat .sub2 button{
+                border:2px solid white;
+                border-radius: 30px;
+                background:green;
+                font-size: 15px;
+                color:white;
+                padding:10px 26px;
+                text-align: center;
+                align-items: center;
+                margin-left: 25px;
+            
+            }
+            .meat .sub2 button:hover
+            {
+                background-color:black;}
+
+                /* meat3 */
+                .meat .sub3
+                {border:3px solid green;
+                    border-radius: 0px 0px 40px 40px;
+                    width: max-content;
+                    height:max-content;
+                    margin-top:50px;
+                margin-left: 0px;}
+                
+                .meat .sub3:hover
+                {box-shadow: 2px 2px 5px lawngreen;}
+                
+                
+                .meat .sub3 img
+                { width: 150px;
+                    height:150px;
+                    border:5px solid white;}
+                .meat .sub3 h3
+                {font-size: 15px;
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;
+                    text-align: center;
+                    margin-top: 10px;
+                }
+                    
+                .meat .sub3 h1
+                
+                {font-size: 20px;
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                text-align: center;
+                margin-top: 0px;
+                }
+                .meat .sub3 button{
+                    border:2px solid white;
+                    border-radius: 30px;
+                    background:green;
+                    font-size: 15px;
+                    color:white;
+                    padding:10px 26px;
+                    text-align: center;
+                    align-items: center;
+                    margin-left: 25px;
+                
+                }
+                .meat .sub3 button:hover
+                {
+                    background-color:black;}
+
+                    /* meat4 */
+                    .meat .sub4
+                    {border:3px solid green;
+                        border-radius: 0px 0px 40px 40px;
+                        width: max-content;
+                        height:max-content;
+                        margin-top:50px;
+                    margin-left: 0px;}
+                    
+                    .meat .sub4:hover
+                    {box-shadow: 2px 2px 5px lawngreen;}
+                    
+                    
+                    .meat .sub4 img
+                    { width: 150px;
+                        height:150px;
+                        border:5px solid white;}
+                    .meat .sub4 h3
+                    {font-size: 15px;
+                        text-decoration: none;
+                        color: black;
+                        font-weight: bold;
+                        text-align: center;
+                        margin-top: 10px;
+                    }
+                        
+                    .meat .sub4 h1
+                    
+                    {font-size: 20px;
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;
+                    text-align: center;
+                    margin-top: 0px;
+                    }
+                    .meat .sub4 button{
+                        border:2px solid white;
+                        border-radius: 30px;
+                        background:green;
+                        font-size: 15px;
+                        color:white;
+                        padding:10px 26px;
+                        text-align: center;
+                        align-items: center;
+                        margin-left: 25px;
+                    
+                    }
+                    .meat .sub4 button:hover
+                    {
+                        background-color:black;}
+ /*  meat end */
+/* footer */
+.footer
+        
+{
+    background-image: url("./images/a.jpg");
+    height: max-content;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: 50px;
+    
+
+
+}
+.footer .mainfooter
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content:space-evenly;
+    background: rgba( 0,0,0,0.5);
+    width: 100%;
+    color:white;
+    text-align: center;
+    padding:30px 10px;
+    margin-left: 0px;
+    
+    
+
+}
+.footer .mainfooter .sub1 h1
+{ font-size: 25px;
+}
+
+.footer .mainfooter .sub1 h3
+{
+    font-size:18px;
+
+}
+
+
+.footer .mainfooter .sub2 h1
+{ font-size: 25px;
+}
+
+.footer .mainfooter .sub2 h3
+{
+    font-size:18px;
+
+}
+
+        
+.footer .mainfooter .sub3 h1
+{ font-size: 25px;
+}
+
+.footer .mainfooter .sub3 h3
+{
+    font-size:18px;
+
+}
+
+
+
+
+.mainfooter h1:hover
+
+{ background-color:black;}
+
+.last{
+    width:100%;
+    background-color: #fff;
+    text-align:center;
+    font-size: 15px;
+    padding:0px ;
+    margin-top: 0px;
+
+
+}
+
+    
+     @media (max-width:500px)  
+     { #deal 
+        {  display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+     }
+         
+     } 
+
+    
+        
+    
+        
+
+
